@@ -1,3 +1,3 @@
 document.getElementById("myButton").addEventListener("click", function () {
-    alert("You clicked the button!");
+    alert("Kan ik wat voor je inschenken kerel?");
 });

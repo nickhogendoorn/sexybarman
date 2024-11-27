@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #cccbcb; /* Zachte grijze achtergrondkleur */
     color: #333;
     margin: 0;
     padding: 20px;
@@ -14,8 +14,21 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    display: block; /* Zorgt dat de knop op een eigen regel staat */
+    margin: 10px auto
 }
 
 button:hover {
     background-color: #0056b3;
 }
+.barman-container {
+    text-align: center; /* Centert de inhoud in het midden */
+    margin-top: 20px; /* Optioneel: voegt ruimte toe tussen de paragrafen en de container */
+}
+
+img {
+    width: 300px;
+    height: auto; /* Houd de proporties correct */
+}
+
+
